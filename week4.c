@@ -1,3 +1,5 @@
+//DES algorithm logic.
+
 #include <stdio.h>
 #include <stdint.h>
 
