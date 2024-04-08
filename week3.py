@@ -1,5 +1,5 @@
 #week 3
-#1.b
+#1.b Substitution cipher
 def encrypt(plaintext, key):
     encrypted_text = ""
     for char in plaintext:
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
 
 
-#2.
+#2.Ceaser Cipher
 def encrypt(plaintext, key):
     encrypted_text = ""
     for char in plaintext:
@@ -89,7 +89,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-#3.
+#3.Affine Cipher with equation c=3x+12
 def encrypt(plaintext):
     encrypted_text = ""
     for char in plaintext:
@@ -132,7 +132,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-#4.
+#4.Playfair Cipher with key ldrp
 import re
 
 def generate_playfair_square(key):
@@ -221,7 +221,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-#5.
+#5.polyalphabetic Cipher
 def generate_key(plaintext, key):
     key = list(key.upper())
     if len(plaintext) == len(key):
@@ -274,7 +274,7 @@ if __name__ == "__main__":
     main()
 
 
-#6.
+#6.AutoKey Cipher
 
 def generate_key(plaintext, key):
     key = key.upper()
@@ -330,7 +330,7 @@ if __name__ == "__main__":
     main()
 
 
-#8.
+#8.Rail fence technique
 def encrypt(plaintext, rails):
     rail_fence = [''] * rails
     direction = -1  # Direction of movement along the rails
@@ -396,7 +396,7 @@ if __name__ == "__main__":
     main()
 
 
-#9.
+#9.Simple Columnar Transposition technique
 
 def generate_key(plaintext, key):
     key_length = len(key)
@@ -467,7 +467,7 @@ if __name__ == "__main__":
 
 
 
-#10.
+#10.Advanced Columnar Transposition technique
 
 import math
 
