@@ -1,4 +1,4 @@
-#1.
+#1.Euclidean Algorithm
 
 def euclidean_algorithm(a, b):
     while b != 0:
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     main()
 
 
-#2.
+#2.Extended Euclidean Algorithm
 
 def extended_euclidean_algorithm(a, b):
     if b == 0:
@@ -44,7 +44,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-#3.
+#3.Simple RSA Algorithm with smallnumbers
 
 import random
 
