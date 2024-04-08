@@ -1,4 +1,5 @@
-#week 2
+#week 2 Encrypt the message “PAY” using hill cipherwith the following keymatrix
+ # and show the decryption to formulate original plaintext K
 import numpy as np
 
 def hill_cipher_encrypt(plaintext, key_matrix):
